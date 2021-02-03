@@ -1,0 +1,37 @@
+{
+  "name": "@neupauer/tailwindcss-plugin-blend-mode",
+  "version": "1.0.0",
+  "description": "A Tailwind CSS plugin for controlling blending mode behaviour.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neupauer/tailwindcss-plugin-blend-mode"
+  },
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "blend-mode",
+    "mix-blend-mode",
+    "background-blend-mode"
+  ],
+  "author": {
+    "name": "Peter Neupauer",
+    "url": "https://neupauer.sk"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.0",
+    "clean-css": "^4.2.1",
+    "postcss": "^8.2.2",
+    "tailwindcss": "^2.0.2"
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
