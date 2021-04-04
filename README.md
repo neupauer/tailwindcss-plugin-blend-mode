@@ -1,3 +1,5 @@
+> Due to official support in the Tailwind's core, this package is no longer maintained.
+
 # Tailwind CSS Plugin – Blend Mode
 
 Utilities for controlling blending mode behaviour.
